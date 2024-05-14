@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+    <title>Modal on Page Load</title>
+
+<body>
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Fail
+    </button> -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-light" style="border: none;">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Hóa đơn</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex py-3 px-5 justify-content-center border border-warning" style="background-color: #FFF6EF;">
+                        <img src="/img/pay/Vector.png" style="max-width: 20px; max-height: 20px;">
+                        <p class="fs-6 text mx-2" style="color: #E77C40;">Thanh toán thất bại</p>
+                    </div>
+                    <div class="mt-3 bg-secondary-subtle ">
+                        <div class="fs-6 text pt-4 p-3">
+                            <span class="fw-normal">Giao dịch không thành công. Vui lòng thực hiện giao dịch khác hoặc thanh toán lại
+                               
+                            </span>
+                        </div>
+                        <div class="fs-6 text pb-4 px-3">
+                            <span class="fw-normal">Website Trọ Ơi rất hân hạnh được phục vụ các bạn !
+                              
+                            </span>
+                        </div>
+                       
+                    </div>
+
+                </div>
+                <div class="modal-footer" style="border: none;">
+               
+                    <button type="button" class="btn bg-success fw-bolder text-white" >Thanh toán lại</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button trigger modal -->
+    <script>
+        // Use jQuery to trigger modal on page load
+        $(document).ready(function() {
+            $('#exampleModal').modal('show');
+        });
+        </script>
+</body>
+
+</html>

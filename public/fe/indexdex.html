@@ -1,0 +1,63 @@
+@extends('client.layouts.master')
+@section('content')
+    <div class="col-lg-10 col-md-12 col-sm-12">
+                <div class="container pt-2">
+                    <nav class="breadcrumbs">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb"><a href="index.html">Home <span> / </span></a></li>
+                            <li class="breadcrumb-item active">Danh sách bài viết</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 ">
+                        <!-- Contact form start -->
+                        <div class="table-responsive">
+                            <table class="table ">
+                                <thead class="table-light">
+                                <th>STT</th>
+                                <th>Liên hệ</th>
+                                <th>Ảnh chính</th>
+                                <th>Thông tin mô tả</th>
+                                <th>Ngày đăng</th>
+                                <th>Action</th>
+                                </thead>
+                                <tbody class="align-items-center p-4">
+                                <tr class="">
+                                    <th scope="row">1</th>
+                                    <td class="">
+                                        <div>
+                                            <h5>Nguyễn Quang Phúc</h5>
+                                            <p>SDT : 0936219271 </p>
+                                            <p>Zalo :0936219271</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <img src="https://picsum.photos/200">
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <h5>Tiêu đề: Nhà cho thuê tại Hà Đông , Hà Nội , Việt Nam</h5>
+                                            <p>Khu vực: Hà Đông , Hà Nội   </p>
+                                            <p>Chuyên mục: Nhà trọ</p>
+                                            <p> Giá cho thuê: <span style="color: red">500.000 VND </span>/ tháng</p>
+                                            <p>Diện tích <span class="fw-bold" >25m²</span></p>
+                                        </div>
+                                    </td>
+                                    <td>15/09/2023</td>
+                                    <td class="">
+                                        <button class="btn-sm btn-danger  mb-2"> Ẩn </button>
+                                        <button class="btn-sm btn-theme mb-2"> Sửa </button>
+                                        <button class="btn-sm btn-primary">Mua gói dịch vụ</button>
+                                    </td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+                            <!-- Contact form end -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+@endsection

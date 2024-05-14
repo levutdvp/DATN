@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Checkout-Pay</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script language="javascript">
+        const myModal = document.getElementById('myModal')
+        const myInput = document.getElementById('myInput')
+        myModal.addEventListener('shown.bs.modal', () => {
+            myInput.focus()
+        })
+
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Thanh toán
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Thanh toán</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    STT
+                                </th>
+                                <th>
+                                    Image
+                                </th>
+                                <th>
+                                    Tên bài
+                                </th>
+                                <th>
+                                    Giá
+                                </th>
+                                <th>
+                                    Địa chỉ
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="fw-semibold">
+                                <td>
+                                    1
+                                </td>
+                                <td>
+                                    <center>
+                                        <img src="img/img-2.jpg" style="max-width: 120px;">
+                                    </center>
+                                </td>
+                                <td>
+                                    CHO THUÊ TẦNG 1 , Nhà số 171a đường Xuân Thuỷ, quận Cầu Giấy, thành phố Hà Nội.
+                                </td>
+                                <td>
+                                    20.000 VND
+                                </td>
+                                <td>
+                                    Cầu Giấy, Xuân Thủy, Hà Nội.
+                                </td>
+                            </tr>
+                            <tr class="fw-semibold">
+                                <td>
+                                    1
+                                </td>
+                                <td>
+                                    <center>
+                                        <img src="img/img-2.jpg" style="max-width: 120px;">
+                                    </center>
+                                </td>
+                                <td>
+                                    CHO THUÊ TẦNG 1 , Nhà số 171a đường Xuân Thuỷ, quận Cầu Giấy, thành phố Hà Nội.
+                                </td>
+                                <td>
+                                    20.000 VND
+                                </td>
+                                <td>
+                                    Cầu Giấy, Xuân Thủy, Hà Nội.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="row">
+
+                        <hr>
+                        <div class="col">
+
+                            <div class="d-flex  justify-content-between">
+                                <p class="text-medium fw-bolder">Đơn giá [VIP1]</p>
+                                <p class="fw-semibold fs-5 text" style="color: #E24343;">30.000</p>
+                            </div>
+                            <div class="d-flex  justify-content-between">
+                                <p class="text-medium fw-semibold">Số bài</p>
+                                <p class="">2</p>
+                            </div>
+                            <div class="d-flex  justify-content-between">
+                                <p class="text-medium fw-semibold">Số tiền</p>
+                                <p class="fw-semibold fs-5 text" style="color: #E24343;">60.000</p>
+                            </div>
+                            <div class="d-flex  justify-content-between">
+                                <div class="d-flex justify-content-between">
+                                    <p class="text-medium fw-semibold">Mã giảm giá</p>
+                                    <input class="mx-2 form-control" type="text" style="max-width: 90px; height: 24px;">
+                                </div>
+
+                                <p class="fw-semibold">5.000 </p>
+                            </div>
+                            <div class="d-flex  justify-content-between">
+                                <p class="text-medium fw-semibold">Ngày hết hạn</p>
+                                <p class="fw-semibold">2/12/2023</p>
+                            </div>
+                            <div class="d-flex  justify-content-between">
+                                <p class="text-medium fw-semibold">Phí dịch vụ</p>
+                                <p class="fw-semibold">0</p>
+                            </div>
+                            <div class="d-flex  justify-content-between">
+                                <p class="fw-bold">Tổng tiền</p>
+                                <p class="fw-semibold fs-5 text" style="color: #E24343;">55.000</p>
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-center flex-column">
+                            <p class="text-primary fw-bold">Phương thức thanh toán</p>
+                            <div class="">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" value="1" name="type-pay" checked>
+                                <label class="form-check-label fw-semibold">
+                                    Chuyển khoản online
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" value="2" name="type-pay">
+                                <label class="form-check-label fw-semibold">
+                                    Thanh toán MOMO
+                                </label>
+                                <img src="img/pay/image 1.jpg" style="max-width: 24px; max-height: 24px;">
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" value="3" name="type-pay">
+                                <label class="form-check-label fw-semibold">
+                                    Thanh toán VN PAY
+                                </label>
+                                <img src="img/pay/image 2.png" style="max-width: 24px; max-height: 24px;">
+                            </div>
+                            </div>
+                            <button type="button" onclick="onclick_Pay()" id="btn-pay"
+                                class="btn text-white mt-4 fw-semibold px-5 py-3 fs-5 text"
+                                style="background-color:  #FCAF17; ">Thanh toán</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal thanh toán -->
+
+    <script>
+
+        function onclick_Pay() {
+            var checkbox = document.getElementsByName("type-pay");
+            for (var i = 0; i < checkbox.length; i++) {
+                if (checkbox[i].value == 1) {
+                    location.replace("display-QR.html");
+
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
