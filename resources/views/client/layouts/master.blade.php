@@ -134,15 +134,15 @@
                         <i class="fa fa-phone" aria-hidden="true"></i>
                         <div class="animated alo-circle"></div>
                         <div class="animated alo-circle-fill  "></div>
-                        <span>Hotline:036 37 38 586</span>
+                        <span>Hotline: 0384 324 941</span>
                     </a>
-                    <a href="https://www.facebook.com/profile.php?id=61553726249194" class="mes">
+                    <a href="https://www.facebook.com/iuuThuHoaiii" class="mes">
                         <i class="fa fa-facebook-official" aria-hidden="true"></i>
                         <span>Nhắn tin Facebook</span>
                     </a>
                     <a href="http://zalo.me/0363738586" class="zalo align-items-center">
                         <i class="fa pt-2" style="font-size: 11px" aria-hidden="true">Zalo</i>
-                        <span>Zalo: 036 37 38 586</span>
+                        <span>Zalo: 0384 324 941</span>
                     </a>
 
                     <!-- Messenger Chat Plugin Code -->

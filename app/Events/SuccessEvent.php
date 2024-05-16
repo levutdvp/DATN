@@ -14,7 +14,6 @@ use App\Models\User;
 class SuccessEvent
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
-    use SerializesModels;
     public $user;
    /**
      * Create a new event instance.

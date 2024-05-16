@@ -55,7 +55,6 @@ class HomeController extends Controller
         // $share_content=HOME_URL;
         // $shareComponent = \Share::page(
         //     $share_content,
-        //     'chia se fb cua quang phuc vip pro',
         // )
         //     ->facebook()
         //     ->twitter()

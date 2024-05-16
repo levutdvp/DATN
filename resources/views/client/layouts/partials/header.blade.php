@@ -586,7 +586,7 @@
                                 <img src="{{ asset('fe/img/pay/image_10.png') }}"
                                     style="max-width: 200px; max-height: 200px;">
                                 <p class="fw-medium">Ngân hàng: MB</p>
-                                <p class="fw-medium">STK:0345673127</p>
+                                <p class="fw-medium">STK: 0123456789</p>
                             </div>
                             <div class="">
                                 <p class="fw-medium">Khách hàng: <span style="color: #E24343;"
